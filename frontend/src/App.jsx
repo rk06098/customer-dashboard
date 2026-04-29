@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API = "http://localhost:5000";
+const API = "https://customer-dashboard-dsk0.onrender.com";
 
 export default function App() {
   const [customers, setCustomers] = useState([]);
